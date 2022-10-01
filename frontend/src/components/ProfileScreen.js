@@ -94,12 +94,20 @@ const ProfileScreen = ({location, history}) => {
   
   function remcl(){
     let parent = this.parentNode.parentNode;
-    if(this.value == ""){
+    if(this.value == Null){
       parent.classList.remove("focus");
     }
   }
   
   const nameinputfocus = () =>{
+    setisEditablename(!isEditablename)
+    if(isEditablename){
+      nameinput.current.focus()        
+    }else{
+
+    }
+  }
+  const userinputfocus = () =>{
     setisEditablename(!isEditablename)
     if(isEditablename){
       nameinput.current.focus()        
