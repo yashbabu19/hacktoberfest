@@ -11,6 +11,7 @@ const Rating = ({value,text}) => {
             <span><i> {value >=3 ? <AiFillStar/> : value >= 2.5 ? <BsStarHalf/> : <BsStar/> } </i></span>
             <span>  <i> {value >=4 ? <AiFillStar/> : value >= 3.5 ? <BsStarHalf/> : <BsStar/> } </i></span>
             <span>  <i> {value >=5 ? <AiFillStar/> : value >= 4.5 ? <BsStarHalf/> : <BsStar/> } </i> </span>
+            <span>  <i> {value >=6 ? <AiFillStar/> : value >= 5.5 ? <BsStarHalf/> : <BsStar/> } </i></span>
            {/* <span>{value} ({text && text})</span> */}
           </div>
         
