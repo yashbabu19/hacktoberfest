@@ -151,6 +151,9 @@ import Searchnav from './Searchnav';
                                   <Link to = '/admin/productlist'>
                                         Products
                                   </Link>
+                                   <Link to = '/admin/productItems'>
+                                        Products Items
+                                  </Link>
                                   </MenuItem>
                                   <MenuItem>
                                   <Link to = '/admin/orderlist'>
